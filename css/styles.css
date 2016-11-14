@@ -1,8 +1,13 @@
-body {
-  background-image: url("../img/background.jpeg");
+html {
+  background: url("../img/background.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
+}
+body {
   font-family: 'Baloo Chettan', cursive;
+  color: #fff;
 }
 
 a{
@@ -93,4 +98,67 @@ a{
 #facebook:hover {
   background-color: rgb(44, 91, 165);
   cursor: pointer;
+}
+
+.other {
+  padding-top: 15px;
+  text-align: center;
+  color: #FFF;
+  margin-top: 125px;
+}
+
+.other div {
+  display: inline-block;
+  margin-right: 40px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.other div:hover {
+  color:#fff;
+}
+
+.smaller {
+  font-size: 0.8em;
+}
+
+.medium {
+  font-size: 1.4em;
+}
+
+.larger {
+  font-size: 1.8em;
+}
+
+#ico, #pict, #vide, #aero {
+  margin: 0;
+  padding-right: 4px;
+}
+
+.other div div {
+  display: inline-block;
+}
+
+.other h4 {
+  margin-bottom: 0;
+}
+
+hr {
+  width: 75%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.different, .other {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#quotes div {
+  display: inline-block;
+  margin-right: 40px;
+  width: 350px;
+}
+
+#quotes {
+  text-align: center;
 }
