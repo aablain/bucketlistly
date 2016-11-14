@@ -1,0 +1,96 @@
+body {
+  background-image: url("../img/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+a{
+  text-decoration: none;
+  color: #FFF;
+  padding: 15px;
+
+}
+
+.top {
+  float:right;
+}
+
+#signUp {
+  border: 1px solid #FFF;
+  border-radius: 10%;
+  padding: 8px;
+}
+
+.hoverThing:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+#signUp:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+.goCenter {
+  margin-left: 48%;
+  height: 50px;
+  padding-top: 5px;
+}
+
+.middle {
+  margin-top: 80px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+#p1 {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+#p2 {
+  font-size: 9em;
+  margin-top: -25px;
+  margin-bottom: -35px;
+  font-family: 'Fugaz One', cursive;
+}
+
+#p3 {
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Oleo Script', cursive;
+  font-weight: lighter;
+  text-shadow: 2px 2px 10px #333;
+}
+
+#p4 {
+  margin-top: 60px;
+  text-shadow: 2px 2px 10px #222;
+}
+
+#trending:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+#trending {
+  border: 2px solid #FFF;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+#facebook {
+  border: 1px solid rgb(44, 91, 165);
+  padding: 20px;
+  background-color: rgb(28, 117, 188);
+}
+
+#facebook:hover {
+  background-color: rgb(44, 91, 165);
+  cursor: pointer;
+}
